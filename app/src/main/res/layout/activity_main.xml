@@ -18,18 +18,18 @@
         android:id="@+id/gz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
+        android:layout_marginLeft="@dimen/gz_marginLeft"
         android:layout_marginTop="20dp"
         android:fontFamily="sans-serif-light"
         android:text="@string/gz"
         android:textColor="@android:color/white"
-        android:textSize="45sp" />
+        android:textSize="@dimen/gz_textSize" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="245dp"
-        android:layout_height="35dp"
-        android:layout_marginBottom="22dp"
+        android:layout_width="@dimen/background_width"
+        android:layout_height="@dimen/background_height"
+        android:layout_marginBottom="@dimen/background_marginBottom"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         app:srcCompat="@drawable/background" />
@@ -40,12 +40,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_marginBottom="25dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginBottom="@dimen/remember_marginBottom"
+        android:layout_marginRight="@dimen/remember_marginRight"
         android:fontFamily="sans-serif-light"
         android:text="@string/remember"
         android:textColor="@android:color/white"
-        android:textSize="24sp"
+        android:textSize="@dimen/remember_textSize"
         />
 
 </RelativeLayout>
