@@ -10,6 +10,10 @@
 
     <dimen name="remember_marginBottom">25dp</dimen>
     <dimen name="remember_marginRight">10dp</dimen>
+    <dimen name="remember_paddingBottom">3dp</dimen>
+    <dimen name="remember_paddingTop">1dp</dimen>
+    <dimen name="remember_paddingLeft">10dp</dimen>
+    <dimen name="remember_paddingRight">10dp</dimen>
 
     <dimen name="gz_marginLeft">25dp</dimen>
 

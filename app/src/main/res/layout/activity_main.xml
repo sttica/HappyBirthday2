@@ -25,27 +25,22 @@
         android:textColor="@android:color/white"
         android:textSize="@dimen/gz_textSize" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="@dimen/background_width"
-        android:layout_height="@dimen/background_height"
-        android:layout_marginBottom="@dimen/background_marginBottom"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        app:srcCompat="@drawable/background" />
-
     <TextView
         android:id="@+id/remember"
+        android:paddingTop="@dimen/remember_paddingTop"
+        android:paddingBottom="@dimen/remember_paddingBottom"
+        android:paddingLeft="@dimen/remember_paddingLeft"
+        android:paddingRight="@dimen/remember_paddingRight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_marginBottom="@dimen/remember_marginBottom"
-        android:layout_marginRight="@dimen/remember_marginRight"
         android:fontFamily="sans-serif-light"
         android:text="@string/remember"
         android:textColor="@android:color/white"
         android:textSize="@dimen/remember_textSize"
+        android:background="@drawable/background"
         />
 
 </RelativeLayout>
